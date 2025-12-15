@@ -2,7 +2,7 @@
 
 # ARQUITETURA
 DIAGRAMA:
-
+```text
                  (usuário digita pergunta)
                             |
                             v
@@ -28,7 +28,7 @@ DIAGRAMA:
                           |
                           v
                       (resposta)
-
+```text
 ### Framework: langchain
 Langchain que traz o template para formata o prompt, chamar o chat e devolver a resposta.
 Junto com organizar o fluxo do RAG.
