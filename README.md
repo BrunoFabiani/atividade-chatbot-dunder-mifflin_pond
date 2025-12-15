@@ -52,11 +52,11 @@ Quando o usuário faz uma pergunta, o sistema gera o embedding da pergunta, busc
 https://drive.google.com/file/d/1XhT33KC9ZCQ25Tk_K9OyAlcGyRo6ceIL/view?usp=sharing
 
 # Como rodar o chatbot:
-Instale a o repositorio dentro de um pasta
+## 1. Clone o repositório dentro de uma pasta
+git clone <URL_DO_REPOSITORIO>
 
-Entre na pasta:
-
-cd folder_name
+## Entre no projeto
+cd <NOME_DA_PASTA_DO_PROJETO>
 
 ## Crie um ambiente virtual:
 python3 -m venv .venv
