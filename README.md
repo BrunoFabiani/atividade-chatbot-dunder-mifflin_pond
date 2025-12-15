@@ -13,7 +13,7 @@ DIAGRAMA:
             |                |                  |
             v                v                  v
    policy_retriever      email_retriever     compliance_checker.py
-  (OllamaEmbeddings)   (OllamaEmbeddings)      (pandas)
+  <OllamaEmbeddings>   <OllamaEmbeddings>      <pandas>
             |                |                  |
             v                v                  v
   trechos da política     emails relevantes   lista SUSPEITA/VIOLACAO
