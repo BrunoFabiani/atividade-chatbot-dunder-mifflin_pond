@@ -2,7 +2,8 @@
 
 # ARQUITETURA
 DIAGRAMA:
-```text
+
+```
                  (usuário digita pergunta)
                             |
                             v
@@ -13,7 +14,7 @@ DIAGRAMA:
             |                |                  |
             v                v                  v
    policy_retriever      email_retriever     compliance_checker.py
-  <OllamaEmbeddings>   <OllamaEmbeddings>      <pandas>
+  (OllamaEmbeddings)   (OllamaEmbeddings)      (pandas)
             |                |                  |
             v                v                  v
   trechos da política     emails relevantes   lista SUSPEITA/VIOLACAO
@@ -28,7 +29,8 @@ DIAGRAMA:
                           |
                           v
                       (resposta)
-```text
+```
+
 ### Framework: langchain
 Langchain que traz o template para formata o prompt, chamar o chat e devolver a resposta.
 Junto com organizar o fluxo do RAG.
